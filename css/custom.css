@@ -4,6 +4,10 @@
 blockquote {
     margin: 0;
 }
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
 
 blockquote p {
     padding: 15px;
@@ -22,6 +26,9 @@ blockquote p::after {
 .mh-service-item {
     padding: 60px;
     border-radius: 4px;
+}
+#about {
+    padding: 3rem 0 !important;
 }
 
 .shadow-1 {
@@ -97,6 +104,6 @@ blockquote p::after {
 #contact {
     background: url('http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/map-color-overlay.png')
 }
-#work{
+#experience{
     background: #f4623a
 }
