@@ -13,6 +13,7 @@ blockquote p {
     padding: 15px;
     background: #eee;
     border-radius: 5px;
+    margin-bottom: 0;
 }
 
 blockquote p::before {
@@ -67,6 +68,10 @@ blockquote p::after {
     padding: 20px 30px;
     border-radius: 4px;
     background: #fff;
+}
+footer {
+    background: #eee;
+    padding-bottom: 25px;
 }
 
 .mh-experience-deatils .mh-work-item h4 {
