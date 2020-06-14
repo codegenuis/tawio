@@ -88,6 +88,7 @@ footer {
     overflow-y: scroll;
     padding: 23px 85px;
     width: 100%;
+    -ms-overflow-style: none;
 }
 
 .mh-work-item .details::-webkit-scrollbar {
