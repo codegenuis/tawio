@@ -8,6 +8,12 @@ a {
     text-decoration: none !important;
     color: inherit;
 }
+p {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+li {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 blockquote p {
     padding: 15px;
@@ -73,26 +79,25 @@ footer {
     background: #eee;
     padding-bottom: 25px;
 }
+.mh-work-item {
+    display: flex;
+}
+
+.mh-work-item .details {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 23px 85px;
+    width: 100%;
+}
+
+.mh-work-item .details::-webkit-scrollbar {
+    display: none;
+  }
 
 .mh-experience-deatils .mh-work-item h4 {
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
-}
-
-.mh-experience-deatils .mh-work-item h4 a {
-    color: #0bceaf;
-}
-
-.mh-experience-deatils .mh-work-item .mh-eduyear {
-    margin: 10px 0;
-    color: #0bceaf;
-}
-
-.mh-experience-deatils .mh-work-item .work-responsibility li {
-    font-size: 14px;
-    line-height: 23px;
-    margin: 2px 0;
 }
 
 .mh-experience-deatils .mh-work-item .work-responsibility li .svg-inline--fa {
@@ -112,3 +117,23 @@ footer {
 #experience{
     background: #f4623a
 }
+
+@media (max-width: 992px) {
+   h1,h2,h3,h4,h5 {
+       font-size: 20px !important;
+   }
+   .mh-experience-deatils .mh-work-item h4 {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+}
+   p, li {
+       font-size: 14px;
+   }
+   .mh-work-item img {
+       max-width: 55px;
+   }
+   .mh-work-item .details {
+    padding: 23px 14px;
+}
+  }
