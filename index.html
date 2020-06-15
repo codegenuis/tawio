@@ -245,24 +245,25 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <form id="contactForm" class="single-form justify-content-center quate-form wow col-md-6">
+          <form id="contactForm" class="single-form justify-content-center quate-form wow col-md-6"  action="https://formspree.io/mwkrbzyg" method="POST">
             <div id="msgSubmit" class="h3 text-center hidden"></div>
             <div class="row">
               <div class="col-md-6 col-sm-12 form-group">
-                <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required="">
+                <input name="firstname" class="contact-name form-control" id="name" type="text" placeholder="First Name" required="">
               </div>
               <div class="col-md-6 col-sm-12 form-group">
-                <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required="">
+                <input name="lastname" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required="">
               </div>
               <div class="col-sm-12 form-group">
-                <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required="">
+                <input name="email" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required="">
               </div>
               <div class="col-sm-12 form-group">
-                <textarea class="contact-message form-control" id="message" rows="6" placeholder="Your Message" required=""></textarea>
+                <textarea name="message" class="contact-message form-control" id="message" rows="6" placeholder="Your Message" required=""></textarea>
               </div>
               <!-- Subject Button -->
               <div class="btn-form col-sm-12 text-center">
-                <button type="submit" class="btn btn-primary btn-xl disabled" id="form-submit">Send Message</button>
+                <button type="submit" class="btn btn-primary btn-xl" id="form-submit">Send Message</button>
+                <p id="my-form-status" class="text-success"></p>
               </div>
             </div>
           </form>
@@ -279,6 +280,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/mail.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simplebar@5.2.0/dist/simplebar.min.js"></script>
   </body>
 
