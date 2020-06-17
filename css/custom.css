@@ -31,7 +31,7 @@ blockquote p::after {
 }
 
 .mh-service-item {
-    padding: 60px;
+    padding: 40px;
     border-radius: 4px;
 }
 #about {
@@ -46,6 +46,7 @@ blockquote p::after {
 
 .mh-service-item div {
     color: #000;
+    margin-left: 25px;;
 }
 .mh-service-item h3 {
     font-size: 1.18em !important
@@ -117,13 +118,22 @@ footer {
     background: url('http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/map-color-overlay.png')
 }
 #experience{
-    background: #f4623a
+    background:  #0a1035
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #0a1035 !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #0f2de2 !important;
 }
 
 @media (max-width: 992px) {
    h1,h2,h3,h4,h5 {
        font-size: 20px !important;
    }
+
    .mh-experience-deatils .mh-work-item h4 {
     font-size: 17px;
     line-height: 30px;
